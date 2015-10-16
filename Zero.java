@@ -1,15 +1,20 @@
 package groupszero;
 
 import java.util.ArrayList;
+import java.util.List;
 
-
+// please add javadoc for each class
 public class Zero {
-	String findzero(int[]array){
-		ArrayList<Integer> list=new ArrayList<Integer>();
+	// please add comment to describe the function
+	private String findzero(int[]array){
+		// please check if the input is legal
+		List<Integer> list=new ArrayList<>();
 		int index=0;
 		int count=0;
 		for(int i=0;i<array.length;i++){
 			if(array[i]==1){
+				// why you use so many continue in your code?
+				// try to remove all the continue, does it affect your correctness?
 				continue;
 			}
 			else if(array[i]==0){

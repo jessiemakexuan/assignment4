@@ -28,6 +28,7 @@ public class CowsandBulls {
 			}
 			
 		}
+		// if this code is not needed, please remove it to keep it clean
 //		for(int i=0;i<4;i++){
 //			System.out.print(numList[i]);
 //		}

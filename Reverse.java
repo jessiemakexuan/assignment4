@@ -21,12 +21,14 @@ public class Reverse {
 								break;
 					}
 					list.add(word);
+					// continue is not needed.
 					continue;
 				}
+				// if is not needed
 				if(ch[i]==' '){
 					continue;
 				}
-			}
+			} // else is not needed
 			else
 				continue;
 		}

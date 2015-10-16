@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// is the name of class a typo?
 public class Frbonacci {
 	ArrayList<Integer> generate(int number){
 		ArrayList<Integer> list=new ArrayList<Integer>();
